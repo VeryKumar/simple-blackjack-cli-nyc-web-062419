@@ -28,7 +28,7 @@ def initial_round
   second = deal_card
   sum = first + second
   return sum
-  puts "Your cards add up to #{display_card_total}"
+  puts display_card_total
 end
 
 def hit?
